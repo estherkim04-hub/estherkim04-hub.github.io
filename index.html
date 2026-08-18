@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Academic homepage of Jinseo Kim, Software Engineering undergraduate at Chung-Ang University and incoming exchange student at HKU." />
+  <title>Jinseo Kim</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top">Jinseo Kim</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publication">Publication</a>
+        <a href="#projects">Projects</a>
+        <a href="Jinseo_Kim_CV.pdf" target="_blank" rel="noopener">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">Software Engineering · AI · HCI</p>
+        <h1>Jinseo Kim</h1>
+        <p class="lead">
+          Software Engineering undergraduate at Chung-Ang University, with research experience in
+          computer vision, medical image analysis, and multimodal biosignal classification.
+        </p>
+        <p class="sublead">
+          Incoming exchange student at the University of Hong Kong (2026–27), School of Computing and Data Science.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="mailto:estherkim04@naver.com">Email me</a>
+          <a class="button secondary" href="Jinseo_Kim_CV.pdf" target="_blank" rel="noopener">View CV</a>
+        </div>
+        <div class="focus">
+          <span>HCI</span>
+          <span>Wearable Computing</span>
+          <span>Multimodal Learning</span>
+          <span>Spatial Intelligence</span>
+          <span>Computer Vision</span>
+        </div>
+      </div>
+      <div class="portrait-wrap">
+        <img class="portrait" src="assets/jinseo_kim.jpg" alt="Portrait of Jinseo Kim" />
+      </div>
+    </section>
+
+    <section id="about" class="section alt">
+      <div class="container narrow">
+        <p class="section-kicker">About</p>
+        <h2>Building intelligent systems that understand people and context.</h2>
+        <p>
+          I am interested in AI systems that connect perception, sensing, and real-world interaction.
+          My recent work focuses on electrooculography (EOG)-based gaze understanding, where I study
+          participant-independent viewing-distance and gaze-direction classification using machine-learning
+          and deep-learning models.
+        </p>
+        <p>
+          I am especially interested in wearable and situated AI, multimodal context modelling,
+          adaptive interfaces, and robust visual recognition.
+        </p>
+      </div>
+    </section>
+
+    <section id="research" class="section">
+      <div class="container">
+        <p class="section-kicker">Research</p>
+        <h2>Current research interests</h2>
+        <div class="card-grid three">
+          <article class="card">
+            <h3>Wearable & Situated AI</h3>
+            <p>
+              Context-aware systems that infer user intent and support people through smart glasses,
+              physiological sensing, and adaptive interfaces.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Multimodal Learning</h3>
+            <p>
+              Combining biosignals, visual context, and other modalities to build more robust and
+              interpretable models of human state and behavior.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Robust Computer Vision</h3>
+            <p>
+              Reliable visual recognition under domain shift, including thermal imagery and medical imaging.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="publication" class="section alt">
+      <div class="container">
+        <p class="section-kicker">Publication</p>
+        <h2>Selected publication</h2>
+        <article class="publication">
+          <div class="pub-year">2026</div>
+          <div>
+            <h3>Domain Adaptation-Driven Single Domain Generalization for Thermal UAV-Based Missing Person Detection</h3>
+            <p>E. Lee, <strong>J. Kim</strong>, J. Chung, G. Lim, and J. Paik</p>
+            <p class="muted">2026 IEIE Summer Conference · Presented · Second author</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <p class="section-kicker">Projects</p>
+        <h2>Selected research projects</h2>
+        <div class="project-list">
+          <article class="project">
+            <div>
+              <p class="project-meta">IXLab · 2026–Present</p>
+              <h3>EOG-Based Gaze Direction & Viewing-Distance Classification</h3>
+            </div>
+            <p>
+              Developing ML/DL pipelines for six-channel EOG data from 20 participants.
+              Compared classical models with CNN and Transformer architectures and evaluated
+              participant-independent generalization using leave-one-subject-out cross-validation.
+            </p>
+          </article>
+
+          <article class="project">
+            <div>
+              <p class="project-meta">WBridge Research Program · 2026</p>
+              <h3>Thermal UAV Missing-Person Detection under Unseen Domains</h3>
+            </div>
+            <p>
+              Co-developed a YOLOv5-based single-domain generalization framework using Fourier Domain Adaptation,
+              thermal contrast augmentation, and stabilization losses for cross-dataset search-and-rescue detection.
+            </p>
+          </article>
+
+          <article class="project">
+            <div>
+              <p class="project-meta">Medical AI · 2026</p>
+              <h3>Clinically Reliable Synthetic Chest X-Ray Dataset Construction</h3>
+            </div>
+            <p>
+              Built a multi-agent validation workflow for synthetic MIMIC-CXR samples and used validated
+              augmentation to improve pneumothorax classification performance.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section">
+      <div class="container narrow">
+        <p class="section-kicker">Contact</p>
+        <h2>Interested in research collaboration?</h2>
+        <p>
+          I am open to research opportunities in HCI, wearable computing, multimodal learning,
+          spatial intelligence, computer vision, and medical AI.
+        </p>
+        <a class="button primary" href="mailto:estherkim04@naver.com">estherkim04@naver.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <span>© 2026 Jinseo Kim</span>
+      <span>Chung-Ang University · The University of Hong Kong</span>
+    </div>
+  </footer>
+</body>
+</html>
